@@ -2,6 +2,14 @@
 
 <uL>
 	<%= @villas.each do |villa| %>
-		<li>%= villa %></li>
+	
+		<li><%= villa.name %></li>
+		<li><%= villa.strapline %></li>
+		<li><%= villa.sleeps_min %></li>
+		<li><%= villa.sleeps_max %></li>
+		<li><%= villa.description %></li>
+		<li><%= villa.low_season_euro %></li>
+		<li><%= villa.mid_season_euro %></li>
+		<li><%= villa.high_season_euro %></li>
 	<% end %>
 </ul>

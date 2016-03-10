@@ -1,6 +1,6 @@
 class VillasController < ApplicationController
   
   def index
-    @villas = [ "Dimora", "Podere Mandrie", "Valdera" ] 
+    @villas = Villa.all
   end
 end
